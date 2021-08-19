@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
-  version: '1.0.0'
-  title: 'QA service'
+  version: '2.0.0'
+  title: 'QA service 2.0'
 servers:
 - url: https://main-xlm-roberta-base-squadv2-rjdm1324.endpoint.ainize.ai
 paths:
@@ -10,7 +10,7 @@ paths:
       tags:
         - request
       requestBody:
-          description: question, context
+          description: question, context , lan
           required: true
           content:
             application/form-data:
@@ -23,6 +23,9 @@ paths:
                   question:
                     type: string
                     description: "question"
+                  lan:
+                    type: string
+                    description: "language"
       responses:
         '200':
           description: 출력
