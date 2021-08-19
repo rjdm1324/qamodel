@@ -88,7 +88,7 @@ lan = "language" (ko or en)
 Using curl on the terminal:
 
 ```
-$ curl -L -X POST 'https://master-qamodel-rjdm1324.endpoint.ainize.ai/generate' -F 'context="It involved the vast majority of the world'\''s countries—including all of the great powers—forming two opposing military alliances: the Allies and the Axis powers. In a total war directly involving more than 100 million personnel from more than 30 countries, the major participants threw their entire economic, industrial, and scientific capabilities behind the war effort, blurring the distinction between civilian and military resources."' -F 'question="How many people in total fought in World War II?" -F 'lan'="en" '
+$ curl -L -X POST 'https://master-qamodel-rjdm1324.endpoint.ainize.ai/generate' -F 'context="It involved the vast majority of the world'\''s countries—including all of the great powers—forming two opposing military alliances: the Allies and the Axis powers. In a total war directly involving more than 100 million personnel from more than 30 countries, the major participants threw their entire economic, industrial, and scientific capabilities behind the war effort, blurring the distinction between civilian and military resources."' -F 'question="How many people in total fought in World War II?"'  -F 'lan="en"' 
 
 {
     "answer":"more than 100 million",
