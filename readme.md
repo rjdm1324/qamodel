@@ -5,7 +5,7 @@
 ---
 1. Enter context and question to derive answer.  
    **context와 question을 입력하면 answer을 도출해 줍니다.**  
-2. support english and korean. 
+2. support english and korean.   
    **영어와 한국어를 지원합니다.**
 - github : [squadv2-xlm-roberta](https://github.com/rjdm1324/xlm-roberta-base-squadv2), [klue-mrc-koelectra](https://github.com/rjdm1324/qamodel)
 - huggingface : [squadv2-xlm-roberta](https://huggingface.co/seongju/squadv2-xlm-roberta-base), [klue-mrc-koelectra](https://huggingface.co/seongju/klue-mrc-koelectra-base)
@@ -26,7 +26,7 @@
 
 endpoint : [ainize](https://main-xlm-roberta-base-squadv2-rjdm1324.endpoint.ainize.ai/)
 - QA service
-1. select language. 
+1. select language.  
    **언어를 선택합니다.**
 1. Fill the context box.  
   **context 박스에 context를 입력합니다.**
@@ -44,9 +44,9 @@ endpoint : [ainize](https://main-xlm-roberta-base-squadv2-rjdm1324.endpoint.aini
 - Load button
 1. You can import the txt file of the local by clicking load button.  
    **로컬에 있는 txt 파일을 load 버튼으로 불러올 수 있습니다.**
-2. Fill the question box you want to find in context. 
+2. Fill the question box you want to find in context.  
    **question 박스에 찾고싶은 question을 입력합니다.**
-3. Click submit button. 
+3. Click submit button.  
    **submit 버튼을 누릅니다.**
 - Clear button
 1. The question box and the context box are cleared.  
